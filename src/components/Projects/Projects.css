@@ -1,0 +1,13 @@
+.projects-container {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.projects-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.projects-subtitle {
+    font-size: large;
+}
