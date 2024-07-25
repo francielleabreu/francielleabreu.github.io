@@ -11,7 +11,7 @@ const Skills = () => {
                 </div>
                 <div className="skills-list-container">
                     <div className="skill-card">
-                        <h2 className="skill-title">UI/UX Design</h2>
+                        <h2 className="skill-title-card">UI/UX Design</h2>
                         <div className="skill-items-list">
                             <div className="skill-item">
                                 <img className="skill-image" src="/product-skills.png" alt="UX Researcher" />
@@ -32,7 +32,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="skill-card">
-                        <h2 className="skill-title">Front-end</h2>
+                        <h2 className="skill-title-card">Front-end</h2>
                         <div className="skill-items-list">
                             <div className="skill-item">
                                 <img className="skill-image" src="/js-skills.png" alt="JavaScript" />
@@ -57,7 +57,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="skill-card">
-                        <h2 className="skill-title">Back-end</h2>
+                        <h2 className="skill-title-card">Back-end</h2>
                         <div className="skill-items-list">
                             <div className="skill-item">
                                 <img className="skill-image" src="/nodejs-skills.png" alt="Node.js" />
@@ -86,7 +86,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="skill-card">
-                        <h2 className="skill-title">Others</h2>
+                        <h2 className="skill-title-card">Others</h2>
                         <div className="skill-items-list">
                             <div className="skill-item">
                                 <img className="skill-image" src="/git-skills.png" alt="Git" />

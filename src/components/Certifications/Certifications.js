@@ -1,47 +1,98 @@
-// import React, { useEffect, useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Container, Table, Modal, Button } from 'react-bootstrap';
 import './Certifications.css';
-
-// interface Certificate {
-//     name: string;
-//     duration: string;
-//     year: number;
-//     company: string;
-//     fileName: string;
-// }
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import { Worker, Viewer } from '@react-pdf-viewer/core';
+import Accordion from 'react-bootstrap/Accordion';
+import coursesData from '../../courses.json';
 
 function Certifications() {
-//     const [certificates, setCertificates] = useState<Certificate[]>([]);
+    const [courses, setCourses] = useState([]);
+    const [showModal, setShowModal] = useState(false);
+    const [selectedPdf, setSelectedPdf] = useState('');
 
-//     useEffect(() => {
-//         fetch('/assets/certificates/certificates.json')
-//             .then(response => response.json())
-//             .then(data => setCertificates(data))
-//             .catch(error => console.error('Error fetching the certificates:', error));
-//     }, []);
+    useEffect(() => {
+        setCourses(coursesData.courses);
+    }, []);
+
+    const handleShowModal = (pdf) => {
+        setSelectedPdf(pdf);
+        setShowModal(true);
+    };
+
+    const handleCloseModal = () => {
+        setShowModal(false);
+        setSelectedPdf('');
+    };
 
     return (
         <Container className="certifications-container">
-            <Row>
-                <Col>
-                    <h1 className="certifications-title">Certificates</h1>
-                    <p className="certifications-subtitle">Check all the courses I've made in my career</p>
-                </Col>
-            </Row>
-            {/* <Row>
-                <Col>
-                    <ul className="certificates-list">
-                        {certificates.map(cert => (
-                            <li key={cert.name} className="certificate-item">
-                                <h2 className="certificate-name">{cert.name}</h2>
-                                <p className="certificate-duration">{cert.duration}</p>
-                                <p className="certificate-company">{cert.company}</p>
-                                <p className="certificate-filename">{cert.fileName}</p>
-                            </li>
-                        ))}
-                    </ul>
-                </Col>
-            </Row> */}
+            <hr className="featurette-divider" />
+            <div className="certifications-title">Certificates</div>
+            <div className="certifications-subtitle">
+                Qualifications and professional activities with certificates
+            </div>
+            <Accordion>
+                <Accordion.Item eventKey="1">
+                    <Accordion.Header>UX & UI Design</Accordion.Header>
+                    <Accordion.Body>
+                        <Table striped bordered hover>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Duration</th>
+                                    <th>Year</th>
+                                    <th>Company</th>
+                                    <th>PDF</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {courses.map((course, index) => (
+                                    <tr key={index}>
+                                        <td>{course.name}</td>
+                                        <td>{course.duration}</td>
+                                        <td>{course.year}</td>
+                                        <td>{course.company}</td>
+                                        <td>
+                                            <Button variant="link" onClick={() => handleShowModal(course.pdf)}>
+                                                View PDF
+                                            </Button>
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </Table>
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
+            <br />
+            <Accordion>
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header>Bootcamp</Accordion.Header>
+                    <Accordion.Body>
+                        MERN Stack
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
+            <br />
+
+            <Modal show={showModal} onHide={handleCloseModal} size="lg">
+                <Modal.Header closeButton>
+                    <Modal.Title>PDF Viewer</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    {selectedPdf && (
+                        <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
+                            <Viewer fileUrl={selectedPdf} />
+                        </Worker>
+                    )}
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" onClick={handleCloseModal}>
+                        Close
+                    </Button>
+                </Modal.Footer>
+            </Modal>
         </Container>
     );
 }

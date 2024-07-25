@@ -1,0 +1,81 @@
+{
+    "courses": [
+        {
+            "name": "UX Design",
+            "duration": "5 months (+20h)",
+            "year": "2023",
+            "company": "EBAC - British School of Creative Arts",
+            "pdf": "/pdfs/pdf1.pdf"
+        },
+        {
+            "name": "Figma",
+            "duration": "2 months (11h)",
+            "year": "2023",
+            "company": "EBAC - British School of Creative Arts",
+            "pdf": "/pdfs/pdf2.pdf"
+        },
+        {
+            "name": "UI Design: building a digital product",
+            "duration": "49h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf3.pdf"
+        },
+        {
+            "name": "UI Design: diving into digital interfaces",
+            "duration": "8h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf4.pdf"
+        },
+        {
+            "name": "UI Design: creating the design of a prototype",
+            "duration": "6h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf5.pdf"
+        },
+        {
+            "name": "UI Design: designing high fidelity",
+            "duration": "8h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf6.pdf"
+        },
+        {
+            "name": "UI Design: improving the experience of an app with UI Patterns",
+            "duration": "10h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf7.pdf"
+        },
+        {
+            "name": "UI Design: usability test",
+            "duration": "6h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf8.pdf"
+        },
+        {
+            "name": "",
+            "duration": "",
+            "year": "202",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf2.pdf"
+        },
+        {
+            "name": "",
+            "duration": "",
+            "year": "202",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf2.pdf"
+        },
+        {
+            "name": "",
+            "duration": "",
+            "year": "202",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf2.pdf"
+        }
+    ]
+}

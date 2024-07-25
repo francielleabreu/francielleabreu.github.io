@@ -1,24 +1,72 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Image, Card } from 'react-bootstrap';
+import PucrsOnline from "../Education/images/pucrsonline.png";
+import Pucrs from "../Education/images/pucrs-education.png";
+import Uninter from "../Education/images/uninter-education.png";
 import './Education.css';
 
 function Education() {
     return (
         <Container className="education-container">
-            <Row>
-                <Col>
-                    <h1 className="education-title">Education</h1>
-                </Col>
-            </Row>
             <hr className="featurette-divider" />
-
-            <Row className="featurette">
-                <Col md={5}>
-                    <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="150" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+            <div className="education-wrapper">
+                <div className="education-title">Education</div>
+                <div className="education-subtitle">
+                    Find below my formal degrees throughout my career in the areas of Technology and Teaching
+                </div>
+            </div>
+            <Row className="education-row mx-1">
+                <Col xs={12} md={3} className="education-text-center">
+                    <Image src={PucrsOnline} roundedCircle className="education-image" />
+                    <Card className="education-card">
+                        <Card.Body>
+                            <a href="https://online.pucrs.br/graduacao/analise-desenvolvimento-sistemas-full-stack-mobile" className="education-card-link" target="_blank" rel="noopener noreferrer">
+                                <Card.Title className="education-text-center">Systems Analysis and Development</Card.Title>
+                            </a>
+                            <Card.Subtitle className="education-subtitle-card mb-2 text-muted">Technologist Degree</Card.Subtitle>
+                            <Card.Subtitle className="education-subtitle-card mb-2 text-muted">EQF - Level 6</Card.Subtitle>
+                            <Card.Text>2023 - 2025</Card.Text>
+                        </Card.Body>
+                    </Card>
                 </Col>
-                <Col md={7}>
-                    <h2 className="featurette-heading fw-normal lh-1">pucrs<span className="text-body-secondary">pucrs</span></h2>
-                    <p className="lead">pucrs</p>
+                <Col xs={12} md={3} className="education-text-center">
+                    <Image src={Uninter} roundedCircle className="education-image" />
+                    <Card className="education-card">
+                        <Card.Body>
+                            <a href="https://www.uninter.com/pos-graduacao-ead/curso-metodologia-do-ensino-de-lingua-inglesa/" className="education-card-link" target="_blank" rel="noopener noreferrer">
+                                <Card.Title className="education-text-center">English Teaching Methodology</Card.Title>
+                            </a>
+                            <Card.Subtitle className="education-subtitle-card mb-2 text-muted">Specialization</Card.Subtitle>
+                            <Card.Subtitle className="education-subtitle-card mb-2 text-muted">EQF - Level 7</Card.Subtitle>
+                            <Card.Text>2019 - 2020</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={3} className="education-text-center">
+                    <Image src={Uninter} roundedCircle className="education-image" />
+                    <Card className="education-card">
+                        <Card.Body>
+                            <a href="https://www.uninter.com/pos-graduacao-ead/gestao-de-projetos-ageis/" className="education-card-link" target="_blank" rel="noopener noreferrer">
+                                <Card.Title className="education-text-center">Agile Project Management</Card.Title>
+                            </a>
+                            <Card.Subtitle className="education-subtitle-card mb-2 text-muted">Specialization</Card.Subtitle>
+                            <Card.Subtitle className="education-subtitle-card mb-2 text-muted">EQF - Level 7</Card.Subtitle>
+                            <Card.Text>2018 - 2019</Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={12} md={3} className="education-text-center">
+                    <Image src={Pucrs} roundedCircle className="education-image" />
+                    <Card className="education-card">
+                        <Card.Body>
+                        <a href="https://portal.pucrs.br/ensino/cursos/graduacao/letras-lingua-inglesa/" className="education-card-link" target="_blank" rel="noopener noreferrer">
+                                <Card.Title className="education-text-center">English Language and Literatures</Card.Title>
+                            </a>
+                            <Card.Subtitle className="education-subtitle-card mb-2 text-muted">Bachelor of Arts</Card.Subtitle>
+                            <Card.Subtitle className="education-subtitle-card mb-2 text-muted">EQF - Level 6</Card.Subtitle>
+                            <Card.Text>2014 - 2017</Card.Text>
+                        </Card.Body>
+                    </Card>
                 </Col>
             </Row>
         </Container>

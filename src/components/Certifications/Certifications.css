@@ -4,10 +4,23 @@
 }
 
 .certifications-title {
+    font-size: 42px;
     text-align: center;
-    padding: 2rem 1rem;
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
 }
 
 .certifications-subtitle {
-    font-size:large;
+    margin-top: 10px;
+    margin-bottom: 3em;
+}
+
+.featurette-divider {
+    margin: 20px 0;
+}
+
+.featurette-heading {
+    font-weight: normal;
+    line-height: 1;
 }
