@@ -4,6 +4,7 @@ import './Skills.css';
 const Skills = () => {
     return (
         <div className="skills-container" id="skills">
+            <hr className="featurette-divider" />
             <div className="skills-wrapper">
                 <div className="skills-title">Skills</div>
                 <div className="skills-subtitle">
@@ -72,16 +73,8 @@ const Skills = () => {
                                 Python
                             </div>
                             <div className="skill-item">
-                                <img className="skill-image" src="/django-skills.png" alt="Django" />
-                                Django
-                            </div>
-                            <div className="skill-item">
                                 <img className="skill-image" src="/mongodb-skills.png" alt="MongoDB" />
                                 MongoDB
-                            </div>
-                            <div className="skill-item">
-                                <img className="skill-image" src="/postman-skills.png" alt="Postmn" />
-                                Postman
                             </div>
                         </div>
                     </div>
@@ -101,9 +94,13 @@ const Skills = () => {
                                 Scrum
                             </div>
                             <div className="skill-item">
+                                <img className="skill-image" src="/postman-skills.png" alt="Postmn" />
+                                Postman
+                            </div>
+                            {/* <div className="skill-item">
                                 <img className="skill-image" src="/agile-skills.png" alt="Agile Methods" />
                                 Agile Methods
-                            </div>
+                            </div> */}
                             <div className="skill-item">
                                 <img className="skill-image" src="/translator-skills.png" alt="Professional Translator" />
                                 Professional Translator

@@ -9,7 +9,7 @@ function Portfolio() {
             <Row>
                 <Col>
                     <h1 className="portfolio-title">Portfolio</h1>
-                    <p className="portfolio-subtitle">Check my Designer Projects in UI & UX"</p>
+                    <p className="portfolio-subtitle">Check some of my Designer Projects in UI & UX</p>
                 </Col>
             </Row>
             <Row className="portfolio-card-container">
@@ -57,14 +57,16 @@ function Portfolio() {
                             <Card.Text className="portfolio-custom-card-text">
                                 Portal for a Ice Cream small Company manage trailers and product stock
                             </Card.Text>
-                            <Button variant="primary" className="portfolio-custom-card-button">See more</Button>
+                            <Button className="portfolio-custom-card-button">See more</Button>
                         </Card.Body>
                     </Card>
                 </Col>
             </Row>
-            {/* <Row>
-                <Button variant="primary">Check all my projects</Button>
-            </Row> */}
+            <Row>
+                <a href="https://www.behance.net/francielleabreu1" target="_blank" rel="noopener noreferrer">
+                    <Button className="btn btn-portfolio">Check all my projects on Behance now</Button>
+                </a>
+            </Row>
         </Container>
     );
 }

@@ -12,7 +12,7 @@ function Certifications() {
     const [selectedPdf, setSelectedPdf] = useState('');
 
     useEffect(() => {
-        setCourses(coursesData.courses);
+        setCourses(coursesData);
     }, []);
 
     const handleShowModal = (pdf) => {
@@ -47,7 +47,7 @@ function Certifications() {
                                 </tr>
                             </thead>
                             <tbody>
-                                {courses.map((course, index) => (
+                                {courses?.courses?.map((course, index) => (
                                     <tr key={index}>
                                         <td>{course.name}</td>
                                         <td>{course.duration}</td>
@@ -68,9 +68,34 @@ function Certifications() {
             <br />
             <Accordion>
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Bootcamp</Accordion.Header>
+                    <Accordion.Header>Programming</Accordion.Header>
                     <Accordion.Body>
-                        MERN Stack
+                        <Table striped bordered hover>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Duration</th>
+                                    <th>Year</th>
+                                    <th>Company</th>
+                                    <th>PDF</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {courses?.coursesProgramming?.map((course, index) => (
+                                    <tr key={index}>
+                                        <td>{course.name}</td>
+                                        <td>{course.duration}</td>
+                                        <td>{course.year}</td>
+                                        <td>{course.company}</td>
+                                        <td>
+                                            <Button variant="link" onClick={() => handleShowModal(course.pdf)}>
+                                                View PDF
+                                            </Button>
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </Table>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>

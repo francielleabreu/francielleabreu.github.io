@@ -15,67 +15,69 @@
             "pdf": "/pdfs/pdf2.pdf"
         },
         {
-            "name": "UI Design: building a digital product",
-            "duration": "49h",
+            "name": "Degree UI Design: building a digital product ",
+            "duration": "49h (6 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf3.pdf"
         },
         {
-            "name": "UI Design: diving into digital interfaces",
-            "duration": "8h",
+            "name": "Degree UX Research - Research for digital products",
+            "duration": "84h (9 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf4.pdf"
         },
         {
-            "name": "UI Design: creating the design of a prototype",
-            "duration": "6h",
+            "name": "Degree Fundamentals of Visual Design",
+            "duration": "52h (6 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf5.pdf"
         },
         {
-            "name": "UI Design: designing high fidelity",
-            "duration": "8h",
+            "name": "Degree Design System",
+            "duration": "50h (5 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf6.pdf"
         },
         {
-            "name": "UI Design: improving the experience of an app with UI Patterns",
-            "duration": "10h",
-            "year": "2023",
+            "name": "Degree Figma",
+            "duration": "47h (4 courses)",
+            "year": "2022",
             "company": "Alura",
             "pdf": "/pdfs/pdf7.pdf"
         },
         {
-            "name": "UI Design: usability test",
-            "duration": "6h",
+            "name": "Degree Sketch",
+            "duration": "45h (5 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf8.pdf"
         },
         {
-            "name": "",
-            "duration": "",
-            "year": "202",
+            "name": "Degree UX Career Development",
+            "duration": "48h (5 courses)",
+            "year": "2023",
             "company": "Alura",
-            "pdf": "/pdfs/pdf2.pdf"
+            "pdf": "/pdfs/pdf9.pdf"
         },
         {
-            "name": "",
-            "duration": "",
-            "year": "202",
+            "name": "Degree UX Design",
+            "duration": "80h (8 courses)",
+            "year": "2022",
             "company": "Alura",
-            "pdf": "/pdfs/pdf2.pdf"
-        },
+            "pdf": "/pdfs/pdf10.pdf"
+        }
+    ],
+    "coursesProgramming": [
         {
-            "name": "",
-            "duration": "",
-            "year": "202",
-            "company": "Alura",
-            "pdf": "/pdfs/pdf2.pdf"
+            "name": "UX Design",
+            "duration": "5 months (+20h)",
+            "year": "2023",
+            "company": "EBAC - British School of Creative Arts",
+            "pdf": "/pdfs/pdf1.pdf"
         }
     ]
 }

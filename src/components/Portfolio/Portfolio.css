@@ -9,7 +9,7 @@
 }
 
 .portfolio-subtitle {
-    font-size:large;
+    font-size: large;
 }
 
 .portfolio-card-container {
@@ -44,4 +44,26 @@
 .portfolio-custom-card-button {
     font-size: 0.8rem;
     padding: 0.4rem 0.8rem;
+}
+
+.btn {
+    background-color: purple !important;
+    border-color: purple !important;
+    border: 0.1px solid #D200FF;
+}
+
+.btn:hover {
+    background-color: #D200FF !important;
+    border-color: #D200FF !important;
+}
+
+.btn-portfolio {
+    background-color: purple !important;
+    border-color: purple !important;
+    color: white;
+}
+
+.btn-portfolio:hover {
+    background-color: #D200FF !important;
+    border-color: #D200FF !important;
 }
