@@ -73,11 +73,125 @@
     ],
     "coursesProgramming": [
         {
-            "name": "UX Design",
-            "duration": "5 months (+20h)",
+            "name": "Full Stack MERN Program",
+            "duration": "4 months",
+            "year": "2024",
+            "company": "Matrix Master",
+            "pdf": "/pdfs/pdf27.pdf"
+        },
+        {
+            "name": "Python Programmeren",
+            "duration": "1 month",
+            "year": "2024",
+            "company": "Matrix Master",
+            "pdf": "/pdfs/pdf13.pdf"
+        },
+        {
+            "name": "Scrum Fundamentals Certified",
+            "duration": "-",
             "year": "2023",
+            "company": "SCRUM Study",
+            "pdf": "/pdfs/pdf11.pdf"
+        },
+        {
+            "name": "Degree Agile Manager",
+            "duration": "72h (10 courses)",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf15.pdf"
+        },
+        {
+            "name": "Git and GitHub",
+            "duration": "20h",
+            "year": "2022",
+            "company": "SCRUM Study",
+            "pdf": "/pdfs/pdf12.pdf"
+        },
+        {
+            "name": "Certification in Leadership, Learning Capacity and Resilience",
+            "duration": "4h",
+            "year": "2021",
+            "company": "PUCRS",
+            "pdf": "/pdfs/pdf19.pdf"
+        },
+        {
+            "name": "Continuous Development Mindset",
+            "duration": "4h",
+            "year": "2019",
+            "company": "PUCRS",
+            "pdf": "/pdfs/pdf20.pdf"
+        },
+        {
+            "name": "Productivity, Time Management and Purpose",
+            "duration": "4h",
+            "year": "2019",
+            "company": "PUCRS",
+            "pdf": "/pdfs/pdf21.pdf"
+        },
+        {
+            "name": "BPM Day Porto Alegre 2018",
+            "duration": "8h",
+            "year": "2018",
+            "company": "ABPMP_RS",
+            "pdf": "/pdfs/pdf18.pdf"
+        },
+        {
+            "name": "Process Mapping Training with Bizagi",
+            "duration": "15h",
+            "year": "2018",
+            "company": "PUCRS",
+            "pdf": "/pdfs/pdf17.pdf"
+        }
+    ],
+    "coursesLanguages": [
+        {
+            "name": "Nederlandse Taal A1",
+            "duration": "5 months",
+            "year": "2023",
+            "company": "Albeda",
+            "pdf": "/pdfs/pdf26.pdf"
+        },
+        {
+            "name": "Degree My Career",
+            "duration": "40h (4 courses)",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf16.pdf"
+        },
+        {
+            "name": "Career Path",
+            "duration": "5h",
+            "year": "2022",
             "company": "EBAC - British School of Creative Arts",
-            "pdf": "/pdfs/pdf1.pdf"
+            "pdf": "/pdfs/pdf14.pdf"
+        },
+        {
+            "name": "Spanish Language - Level 4",
+            "duration": "32h",
+            "year": "2021",
+            "company": "PUCRS",
+            "pdf": "/pdfs/pdf25.pdf"
+        },
+        {
+            "name": "Spanish Language - Level 3",
+            "duration": "32h",
+            "year": "2021",
+            "company": "PUCRS",
+            "pdf": "/pdfs/pdf24.pdf"
+        },
+        {
+            "name": "Spanish Language - Level 2",
+            "duration": "32h",
+            "year": "2018",
+            "company": "PUCRS",
+            "pdf": "/pdfs/pdf23.pdf"
+        },
+        {
+            "name": "Spanish Language - Level 1",
+            "duration": "32h",
+            "year": "2018",
+            "company": "PUCRS",
+            "pdf": "/pdfs/pdf22.pdf"
         }
     ]
 }

@@ -68,7 +68,7 @@ function Certifications() {
             <br />
             <Accordion>
                 <Accordion.Item eventKey="0">
-                    <Accordion.Header>Programming</Accordion.Header>
+                    <Accordion.Header>Programming and Project Management</Accordion.Header>
                     <Accordion.Body>
                         <Table striped bordered hover>
                             <thead>
@@ -82,6 +82,41 @@ function Certifications() {
                             </thead>
                             <tbody>
                                 {courses?.coursesProgramming?.map((course, index) => (
+                                    <tr key={index}>
+                                        <td>{course.name}</td>
+                                        <td>{course.duration}</td>
+                                        <td>{course.year}</td>
+                                        <td>{course.company}</td>
+                                        <td>
+                                            <Button variant="link" onClick={() => handleShowModal(course.pdf)}>
+                                                View PDF
+                                            </Button>
+                                        </td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </Table>
+                    </Accordion.Body>
+                </Accordion.Item>
+            </Accordion>
+            <br />
+
+            <Accordion>
+                <Accordion.Item eventKey="0">
+                    <Accordion.Header>Languages and Others</Accordion.Header>
+                    <Accordion.Body>
+                        <Table striped bordered hover>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Duration</th>
+                                    <th>Year</th>
+                                    <th>Company</th>
+                                    <th>PDF</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {courses?.coursesLanguages?.map((course, index) => (
                                     <tr key={index}>
                                         <td>{course.name}</td>
                                         <td>{course.duration}</td>
