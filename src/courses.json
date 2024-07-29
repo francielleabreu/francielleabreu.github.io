@@ -15,56 +15,56 @@
             "pdf": "/pdfs/pdf2.pdf"
         },
         {
-            "name": "Degree UI Design: building a digital product ",
+            "name": "UI Design: building a digital product ",
             "duration": "49h (6 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf3.pdf"
         },
         {
-            "name": "Degree UX Research - Research for digital products",
+            "name": "UX Research - Research for digital products",
             "duration": "84h (9 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf4.pdf"
         },
         {
-            "name": "Degree Fundamentals of Visual Design",
+            "name": "Fundamentals of Visual Design",
             "duration": "52h (6 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf5.pdf"
         },
         {
-            "name": "Degree Design System",
+            "name": "Design System",
             "duration": "50h (5 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf6.pdf"
         },
         {
-            "name": "Degree Figma",
+            "name": "Figma",
             "duration": "47h (4 courses)",
             "year": "2022",
             "company": "Alura",
             "pdf": "/pdfs/pdf7.pdf"
         },
         {
-            "name": "Degree Sketch",
+            "name": "Sketch",
             "duration": "45h (5 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf8.pdf"
         },
         {
-            "name": "Degree UX Career Development",
+            "name": "UX Career Development",
             "duration": "48h (5 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf9.pdf"
         },
         {
-            "name": "Degree UX Design",
+            "name": "UX Design",
             "duration": "80h (8 courses)",
             "year": "2022",
             "company": "Alura",
@@ -94,11 +94,102 @@
             "pdf": "/pdfs/pdf11.pdf"
         },
         {
-            "name": "Degree Agile Manager",
+            "name": "Agile Manager",
             "duration": "72h (10 courses)",
             "year": "2023",
             "company": "Alura",
             "pdf": "/pdfs/pdf15.pdf"
+        },
+        {
+            "name": "Javascript and HTML: Practice Logic with Drawings, Animations and a Game",
+            "duration": "10h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf28.pdf"
+        },
+        {
+            "name": "Javascript: Types, Variables And Functions",
+            "duration": "12h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf29.pdf"
+        },
+        {
+            "name": "Javascript: Arrays",
+            "duration": "8h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf30.pdf"
+        },
+        {
+            "name": "Javascript: Exploring the Language",
+            "duration": "10h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf31.pdf"
+        },
+        {
+            "name": "Javascript: Object-Oriented Programming",
+            "duration": "10h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf32.pdf"
+        },
+        {
+            "name": "Angular: Exploring the Framework",
+            "duration": "10h",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf33.pdf"
+        },
+        {
+            "name": "JavaScript for Frontend",
+            "duration": "60h (8 courses)",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf34.pdf"
+        },
+        {
+            "name": "TypeScript",
+            "duration": "21h (3 courses)",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf35.pdf"
+        },
+        {
+            "name": "Web Accessibility",
+            "duration": "20h (3 courses)",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf40.pdf"
+        },
+        {
+            "name": "Starting in Programming",
+            "duration": "79h (10 courses)",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf36.pdf"
+        },
+        {
+            "name": "CSS: Dive into Styles",
+            "duration": "36h (5 courses)",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf37.pdf"
+        },
+        {
+            "name": "Practice HTML and CSS in Web Projects",
+            "duration": "63h (7 courses)",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf38.pdf"
+        },
+        {
+            "name": "From Scratch: HTML and CSS for Web Projects",
+            "duration": "51h (6 courses)",
+            "year": "2023",
+            "company": "Alura",
+            "pdf": "/pdfs/pdf39.pdf"
         },
         {
             "name": "Git and GitHub",
@@ -152,7 +243,7 @@
             "pdf": "/pdfs/pdf26.pdf"
         },
         {
-            "name": "Degree My Career",
+            "name": "My Career",
             "duration": "40h (4 courses)",
             "year": "2023",
             "company": "Alura",
