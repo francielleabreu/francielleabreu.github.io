@@ -3,6 +3,19 @@
     padding: 2rem 1rem;
 }
 
+.certifications-container .accordion-item {
+    border: 0.1px solid #D200FF;
+    box-shadow: rgba(98, 75, 182, 0.15) 0px 4px 24px;
+}
+
+.certifications-container .accordion-body table td {
+    text-align: left;
+}
+
+.certifications-container .btn-link {
+    color: #ffffff;
+}
+
 .certifications-title {
     font-size: 42px;
     text-align: center;
@@ -24,3 +37,4 @@
     font-weight: normal;
     line-height: 1;
 }
+

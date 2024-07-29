@@ -16,3 +16,16 @@ ul li {
 .social-media svg {
   margin: 0 1em
 }
+
+.social-media a {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.social-media svg {
+  fill: #CC3384;
+}
+
+/* .social-media a:hover svg {
+
+} */

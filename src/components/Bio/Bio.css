@@ -8,3 +8,46 @@
     display: flex;
     justify-content: center;
 }
+
+.bio-resume-button {
+    background-color: #CC3384;
+    border-color: #CC3384;
+    color: #fff;
+}
+
+.bio-resume-button:hover {
+    background-color: #D200FF;
+    border-color: #D200FF;
+}
+
+.bio-portfolio-button {
+    background-color: #D200FF;
+    border-color: #D200FF;
+    color: #fff;
+}
+
+.bio-portfolio-button:hover {
+    background-color: #CC3384;
+    border-color: #CC3384;
+}
+
+.typewriter-text {
+    color: #CC3384;
+}
+
+.bio-heading {
+    display: flex;
+    align-items: center;
+}
+
+.bio-title {
+    margin-top: 3em;
+}
+
+.bio-name {
+    color: #ffffff;
+}
+
+.bio-heading span.typewriter-text {
+    margin-left: 0.5rem;
+}

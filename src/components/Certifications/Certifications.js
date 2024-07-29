@@ -33,7 +33,7 @@ function Certifications() {
                 Qualifications and professional activities with certificates
             </div>
             <Accordion>
-                <Accordion.Item eventKey="1">
+                <Accordion.Item eventKey="1" className="border shadow-sm">
                     <Accordion.Header>UX & UI Design</Accordion.Header>
                     <Accordion.Body>
                         <Table striped bordered hover>
@@ -54,9 +54,10 @@ function Certifications() {
                                         <td>{course.year}</td>
                                         <td>{course.company}</td>
                                         <td>
-                                            <Button variant="link" onClick={() => handleShowModal(course.pdf)}>
+                                            <Button variant="link" onClick={() => handleShowModal(course.pdf)} style={{ color: '#ffffff' }}>
                                                 View PDF
                                             </Button>
+
                                         </td>
                                     </tr>
                                 ))}

@@ -1,7 +1,13 @@
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
-
+import Typewriter from 'typewriter-effect';
 import './Bio.css'
+
+const BioData = {
+    roles: [" UX Designer", " Front-end Developer", " UI Designer", " Project Analyst", " Teacher & Translator"],
+    resume: "/assets/pdfs/CV_FrancielleAbreu.pdf",
+    portfolio: "https://www.behance.net/francielleabreu1"
+};
 
 function Bio() {
     return (
@@ -9,24 +15,35 @@ function Bio() {
             <Container>
                 <Row>
                     <Col>
-                        <Row>
+                        <Row className="bio-title">
                             <h2>Hello, my name is</h2>
                         </Row>
                         <Row>
-                            <h1>Francielle Abreu</h1>
+                            <h1 className="bio-name">Francielle Abreu</h1>
                         </Row>
                         <Row>
-                            <h2>I am a <code>Front-end Developer</code></h2>
+                            <h2 className="bio-heading">
+                                I am a
+                                <span className="typewriter-text">
+                                    <Typewriter
+                                        options={{
+                                            strings: BioData.roles,
+                                            autoStart: true,
+                                            loop: true,
+                                        }}
+                                    />
+                                </span>
+                            </h2>
                         </Row>
                         <Row>
-                            <p>I have been working professionally with software programming since 2016. Most of my day I work mainly with Java backend, with the Spring framework. I have had contact with other frameworks, such as PrimeFaces, JPA and JSF.</p>
+                            <p> I am on a journey to transition from a 5-year career as an International Project Analyst to the world of Programming. Beyond coding, I love design and have expertise in UX Design, UI/UX Design and Figma. In addition, I am a certified Scrum Fundamentals Professional with an agile mindset.</p>
                         </Row>
                         <Row className='text-center'>
                             <Col>
-                                <Button variant="primary">Check Resume</Button>{' '}
+                                <Button className="bio-resume-button" href={BioData.resume} target="_blank">Check Resume</Button>{' '}
                             </Col>
                             <Col>
-                                <Button variant="primary">My Porfolio</Button>{' '}
+                                <Button className="bio-portfolio-button" href={BioData.portfolio} target="_blank">My Portfolio</Button>{' '}
                             </Col>
                         </Row>
                     </Col>
