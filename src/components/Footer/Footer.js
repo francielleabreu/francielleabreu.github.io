@@ -1,15 +1,46 @@
 import React from 'react';
 import './Footer.css';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Button from 'react-bootstrap/Button';
 
 function Footer() {
+    const email = "fran.abreu2@gmail.com";
+
+    const copyToClipboard = () => {
+        navigator.clipboard.writeText(email).then(() => {
+            toast.success('Email successfully copied!', {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
+        }, () => {
+            toast.error('Failed to copy email, please try again.', {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+            });
+        });
+    };
+
     return (
         <div className="footer-container">
+            <ToastContainer />
             <footer className="footer-wrapper">
                 <div>
-                    <h1 className="footer-logo">Francielle Abreu</h1>
+                    <Button className="btn-footer" onClick={copyToClipboard}>
+                        <p className='footer-button-title'>Contact me now!</p>
+                    </Button>
                 </div>
-                <div className="footer-divider">
-                </div>
+                <div className="footer-divider"></div>
                 <div className="footer-content">
                     <div className="footer-copyright text-start">
                         <p>&copy; 2024 Developed by Francielle Abreu. All rights reserved.</p>

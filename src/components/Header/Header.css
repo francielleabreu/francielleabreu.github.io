@@ -17,15 +17,21 @@ ul li {
   margin: 0 1em
 }
 
-.social-media a {
+.social-media a svg {
   display: inline-block;
   margin-left: 15px;
 }
 
-.social-media svg {
+.footer-social-media-icons svg {
   fill: #CC3384;
+  transition: color 0.2s ease-in-out;
 }
 
-/* .social-media a:hover svg {
+.footer-social-media-icons svg:hover{
+  fill: #D200FF;
+}
 
-} */
+
+.social-media svg:hover{
+  fill: #D200FF;
+}

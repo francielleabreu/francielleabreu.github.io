@@ -9,7 +9,7 @@ function Portfolio() {
             <Row>
                 <Col>
                     <h1 className="portfolio-title">Portfolio</h1>
-                    <p className="portfolio-subtitle">Check some of my Designer Projects in UI & UX</p>
+                    <p className="portfolio-subtitle">Here some of my Projects as a UI & UX Designer</p>
                 </Col>
             </Row>
             <Row className="portfolio-card-container">

@@ -10,4 +10,25 @@
 
 .projects-subtitle {
     font-size: large;
+    margin-bottom: 2rem;
+}
+
+.project-card {
+    background-color: #e7e5e5;
+    color: #fff;
+    border: none;
+}
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-tags {
+    margin-bottom: 1rem;
+}
+
+.project-tags .badge {
+    background-color: #6c757d;
+    color: #fff;
 }

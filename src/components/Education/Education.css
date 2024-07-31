@@ -7,13 +7,8 @@
     margin-bottom: 40px;
 }
 
-.featurette-divider {
+.education-featurette-divider {
     margin: 20px 0;
-}
-
-.featurette-heading {
-    font-weight: normal;
-    line-height: 1;
 }
 
 .education-title {
@@ -21,7 +16,7 @@
     text-align: center;
     font-weight: 600;
     margin-top: 20px;
-    color: var(--text-primary);
+    color: var(--text-primary);    
 }
 
 .education-subtitle {
@@ -34,7 +29,6 @@
 .education-row {
     display: flex;
     flex-wrap: nowrap;
-    /* gap: 30px; */
     justify-content: center;
 }
 
@@ -47,10 +41,9 @@
     width: 100%;
     max-width: 400px;
     background: var(--card);
-    border: 0.1px solid #D200FF;
+    border: 0.1px solid #CC3384;
     box-shadow: rgba(98, 75, 182, 0.15) 0px 4px 24px;
     border-radius: 16px;
-    /* padding: 18px 36px; */
     text-align: center;
 }
 
@@ -72,6 +65,8 @@
 .education-text-center {
     margin-bottom: 8px;
     font-weight: 400;
+    border-bottom: 1px solid #CC3384;
+    padding-bottom: 10px;
 }
 
 .education-card-link {
@@ -83,7 +78,7 @@
 }
 
 .education-card-link:hover {
-    color: #D200FF;
+    color: #CC3384;
 }
 
 .education-subtitle-card {
@@ -96,15 +91,15 @@
     }
 }
 
-.card {
+.education-card-custom {
     border: none !important;
 }
 
-.card-body {
+.education-card-body {
     background-color: #090917 !important;
     color: white !important;
 }
 
-.card-body .text-muted {
+.education-card-body .education-text-muted {
     color: white !important;
 }
