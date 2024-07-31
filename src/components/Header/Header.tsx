@@ -2,10 +2,10 @@ import './Header.css'
 
 function Header() {
     return (
-        <div className='header'>
+        <div className='header mx-0'>
             <div className="row">
                 <div className="logo col-3">
-                    <code>Francielle Abreu</code>
+                    <code>&lt;Francielle Abreu /&gt;</code>
                 </div>
                 <div className="menu col-6 text-center">
                     <ul>

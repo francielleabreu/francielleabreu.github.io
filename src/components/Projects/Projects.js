@@ -35,6 +35,7 @@ function Projects() {
 
     return (
         <Container className="projects-container">
+            <hr className="featurette-divider" />
             <Row>
                 <Col>
                     <h1 className="projects-title">Projects</h1>

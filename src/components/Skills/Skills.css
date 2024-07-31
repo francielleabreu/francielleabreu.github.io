@@ -16,6 +16,12 @@
     line-height: 1;
 }
 
+
+.featurette-heading {
+    font-weight: normal;
+    line-height: 1;
+}
+
 .skills-wrapper {
     position: relative;
     display: flex;

@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 function Portfolio() {
     return (
         <Container className="portfolio-container">
+            <hr className="education-featurette-divider" />
             <Row>
                 <Col>
                     <h1 className="portfolio-title">Portfolio</h1>
@@ -64,7 +65,7 @@ function Portfolio() {
             </Row>
             <Row>
                 <a href="https://www.behance.net/francielleabreu1" target="_blank" rel="noopener noreferrer">
-                    <Button className="btn btn-portfolio">Check all my projects on Behance now</Button>
+                    <Button className="btn btn-portfolio">Check all my portfolio on Behance</Button>
                 </a>
             </Row>
         </Container>

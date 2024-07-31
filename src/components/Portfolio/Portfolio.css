@@ -3,6 +3,15 @@
     padding: 2rem 1rem;
 }
 
+.featurette-divider {
+    margin: 20px 0;
+}
+
+.featurette-heading {
+    font-weight: normal;
+    line-height: 1;
+}
+
 .portfolio-title {
     font-size: 2.5rem;
     margin-bottom: 2rem;

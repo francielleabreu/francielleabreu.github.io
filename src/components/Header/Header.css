@@ -1,6 +1,17 @@
 .header {
   height: 70px;
   align-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #090917;
+  box-shadow: rgba(98, 75, 182, 0.15) 0px 4px 24px;
+  /* display: flex; */
+  /* display: contents; */
+  /* Usa flexbox para alinhar os itens dentro do header */
+  padding: 0 1em;
+  align-content: flex-end;
 }
 
 ul {
@@ -10,11 +21,11 @@ ul {
 }
 
 ul li {
-  margin: 0 1em
+  margin: 0 1em;
 }
 
 .social-media svg {
-  margin: 0 1em
+  margin: 0 1em;
 }
 
 .social-media a svg {
@@ -24,14 +35,17 @@ ul li {
 
 .footer-social-media-icons svg {
   fill: #CC3384;
-  transition: color 0.2s ease-in-out;
+  transition: fill 0.2s ease-in-out;
 }
 
-.footer-social-media-icons svg:hover{
+.footer-social-media-icons svg:hover {
   fill: #D200FF;
 }
 
-
-.social-media svg:hover{
+.social-media svg:hover {
   fill: #D200FF;
+}
+
+code {
+  margin-left: 100px;
 }

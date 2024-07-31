@@ -41,7 +41,7 @@
 }
 
 .bio-title {
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .bio-name {
@@ -50,4 +50,8 @@
 
 .bio-heading span.typewriter-text {
     margin-left: 0.5rem;
+}
+
+.container {
+    margin-top: 80px;
 }
