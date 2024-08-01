@@ -55,3 +55,10 @@
 .container {
     margin-top: 80px;
 }
+
+.about-me-cover {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 2em;
+}

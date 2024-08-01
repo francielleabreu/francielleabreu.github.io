@@ -8,11 +8,49 @@
     margin-bottom: 2rem;
 }
 
+.experience-subtitle {
+    font-size: large;
+}
+
 .featurette-divider {
     margin: 20px 0;
 }
 
-.featurette-heading {
-    font-weight: normal;
-    line-height: 1;
+.experience-company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.experience-card {
+    text-align: left;
+}
+
+.experience-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.experience-tech-badge {
+    margin: 0.2rem;
+}
+
+.experience-badge-container {
+    margin-bottom: 1rem;
+}
+
+.experience-line {
+    height: 1px;
+    background-color: #CC3384;
+    margin-top: 10px;
+}
+
+.experience-company-logo {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 20px;
+}
+
+.experience-card-text {
+    text-align: justify;
 }

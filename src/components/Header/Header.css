@@ -7,9 +7,6 @@
   z-index: 1000;
   background-color: #090917;
   box-shadow: rgba(98, 75, 182, 0.15) 0px 4px 24px;
-  /* display: flex; */
-  /* display: contents; */
-  /* Usa flexbox para alinhar os itens dentro do header */
   padding: 0 1em;
   align-content: flex-end;
 }
@@ -33,13 +30,9 @@ ul li {
   margin-left: 15px;
 }
 
-.footer-social-media-icons svg {
-  fill: #CC3384;
-  transition: fill 0.2s ease-in-out;
-}
-
-.footer-social-media-icons svg:hover {
-  fill: #D200FF;
+.social-media svg {
+  color: #CC3384;
+  transition: color 0.2s ease-in-out;
 }
 
 .social-media svg:hover {
@@ -48,4 +41,15 @@ ul li {
 
 code {
   margin-left: 100px;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.menu-links a:hover {
+  color: #CC3384;
 }

@@ -15,7 +15,7 @@ function Bio() {
             <Row>
                 <Col>
                     <Row className="bio-title">
-                        <h2>Hello, my name is</h2>
+                        <h2 className="bio-title">Hello, my name is</h2>
                     </Row>
                     <Row>
                         <h1 className="bio-name">Francielle Abreu</h1>
@@ -50,6 +50,7 @@ function Bio() {
                     <Image src='/profile.jpg' roundedCircle className='profile-image' />
                 </Col>
             </Row>
+                {/* <Image src='/about-me-cover.png' fluid className="about-me-cover" /> */}
         </Container>
     );
 }
