@@ -7,7 +7,7 @@ import './Education.css';
 
 function Education() {
     return (
-        <Container className="education-container">
+        <Container className="education-container" id='education'>
             <hr className="education-featurette-divider" />
             <div className="education-wrapper">
                 <div className="education-title">Education</div>

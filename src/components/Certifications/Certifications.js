@@ -26,7 +26,7 @@ function Certifications() {
     };
 
     return (
-        <Container className="certifications-container">
+        <Container className="certifications-container" id="certificates">
             <hr className="featurette-divider" />
             <div className="certifications-title">Certificates</div>
             <div className="certifications-subtitle">

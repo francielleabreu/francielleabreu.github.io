@@ -31,7 +31,7 @@ function Experience() {
             role: "Own Company",
             project: "Translator and Researcher",
             technologies: ["Bilingual Fluency", "Technical Knowledge", "Academic Translation", "Research and Referencing"],
-            description: "Experience with translation since 2016, I opened my own company to provide translation services between Portuguese and English for articles, scales, abstracts, chapters, and academic documents in Psychology, Medicine, and Health. As an English teacher since 2012, I have specialized in academic translation for +8 years. My major achievements include producing high-quality translations published in scientific journals with a high impact factor. With experience working in a high-impact factor journal, I also submit articles to scientific journals and follow the entire process until the article is published. I currently provide sporadic services as a freelance translator.",
+            description: "Experience with translation since 2016, I opened my own company to provide translation services between Portuguese and English for articles, scales, abstracts, chapters, and academic documents in Psychology, Medicine, and Health. As an English teacher since 2012, I have specialized in academic translation for +8 years. My major achievements include producing high-quality translations published in scientific journals with a high impact factor. With experience working in a high-impact factor journal, I also submit articles to scientific journals and follow the entire process until the article is published. I currently provide services as a freelance translator.",
             image: logo2
         },
         {
@@ -46,7 +46,7 @@ function Experience() {
     ];
 
     return (
-        <Container className="experience-container">
+        <Container className="experience-container" id="experience">
             <hr className="featurette-divider" />
             <Row>
                 <Col>
@@ -55,28 +55,32 @@ function Experience() {
                 </Col>
             </Row>
             {experiences.map((exp, index) => (
-                <Row key={index} className="align-items-center mb-4">
-                    <Col md={3} className="text-center">
-                        <Image src={exp.image} className="experience-company-logo" fluid />
-                        <h2 className="experience-company-name">{exp.companyName}</h2>
-                        <p>{exp.role}</p>
-                        <p>{exp.timePeriod}</p>
-                    </Col>
-                    <Col md={9}>
-                        <Card className="experience-card">
-                            <Card.Body>
-                                <Card.Title className="experience-card-title">{exp.project}:</Card.Title>
-                                <div className="experience-badge-container mb-3">
-                                    {exp.technologies.map((tech, i) => (
-                                        <Badge key={i} className="experience-tech-badge" pill variant="dark">{tech}</Badge>
-                                    ))}
-                                </div>
-                                <Card.Text className="experience-card-text">{exp.description}</Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    {index < experiences.length - 1 && <div className="experience-line"></div>}
-                </Row>
+                <React.Fragment key={index}>
+
+                    <Row key={index}>
+                        <Col md={3} className="text-center">
+                            <Image src={exp.image} className="experience-company-logo" fluid />
+                            <h2 className="experience-company-name">{exp.companyName}</h2>
+                            <p>{exp.role}</p>
+                            <p>{exp.timePeriod}</p>
+                        </Col>
+                        <Col md={9}>
+                            <Card className="experience-card">
+                                <Card.Body>
+                                    <Card.Title className="experience-card-title">{exp.project}:</Card.Title>
+                                    <div className="experience-badge-container mb-3">
+                                        {exp.technologies.map((tech, i) => (
+                                            <Badge key={i} className="experience-tech-badge" pill variant="dark">{tech}</Badge>
+                                        ))}
+                                    </div>
+                                    <Card.Text className="experience-card-text">{exp.description}</Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    {index < experiences.length - 1 && <div className="experience-line mb-4"></div>}
+                </React.Fragment>
+
             ))}
         </Container>
     );

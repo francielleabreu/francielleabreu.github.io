@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Portfolio() {
     return (
-        <Container className="portfolio-container">
+        <Container className="portfolio-container" id="portfolio">
             <hr className="education-featurette-divider" />
             <Row>
                 <Col>
@@ -15,7 +15,7 @@ function Portfolio() {
             </Row>
             <Row className="portfolio-card-container">
                 <Col md={3} >
-                    <Card className="portfolio-custom-card">
+                    <Card className="project-card">
                         <Card.Img variant="top" src='/assets/images/portfolio/find-easy-cover.png' className="portfolio-custom-card-img" />
                         <Card.Body className="portfolio-custom-card-body">
                             <Card.Title className="portfolio-custom-card-title">Find Easy</Card.Title>
@@ -27,7 +27,7 @@ function Portfolio() {
                     </Card>
                 </Col>
                 <Col md={3}>
-                    <Card className="portfolio-custom-card">
+                    <Card className="project-card">
                         <Card.Img variant="top" src='/assets/images/portfolio/expat-friend-cover.png' className="portfolio-custom-card-img" />
                         <Card.Body className="portfolio-custom-card-body">
                             <Card.Title className="portfolio-custom-card-title">Expat Friend</Card.Title>
@@ -39,7 +39,7 @@ function Portfolio() {
                     </Card>
                 </Col>
                 <Col md={3}>
-                    <Card className="portfolio-custom-card">
+                    <Card className="project-card">
                         <Card.Img variant="top" src='/assets/images/portfolio/pet-lover-cover.png' className="portfolio-custom-card-img" />
                         <Card.Body className="portfolio-custom-card-body">
                             <Card.Title className="portfolio-custom-card-title">Pet Lover</Card.Title>
@@ -51,10 +51,10 @@ function Portfolio() {
                     </Card>
                 </Col>
                 <Col md={3}>
-                    <Card className="portfolio-custom-card">
+                    <Card className="project-card">
                         <Card.Img variant="top" src='/assets/images/portfolio/sorvetao-cover.png' className="portfolio-custom-card-img" />
                         <Card.Body className="portfolio-custom-card-body">
-                            <Card.Title className="portfolio-custom-card-title">Dashboard Sorvetão</Card.Title>
+                            <Card.Title className="portfolio-custom-card-title">Dashboard</Card.Title>
                             <Card.Text className="portfolio-custom-card-text">
                                 Portal for a Ice Cream small Company manage trailers and product stock
                             </Card.Text>

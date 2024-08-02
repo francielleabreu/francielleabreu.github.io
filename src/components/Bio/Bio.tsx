@@ -11,7 +11,7 @@ const BioData = {
 
 function Bio() {
     return (
-        <Container>
+        <Container id="bio" className="bio-container">
             <Row>
                 <Col>
                     <Row className="bio-title">
@@ -39,10 +39,10 @@ function Bio() {
                     </Row>
                     <Row className='text-center'>
                         <Col>
-                            <Button className="bio-resume-button" href={BioData.resume} target="_blank">Check Resume</Button>{' '}
+                            <Button className="bio-resume-button w-75" href={BioData.resume} target="_blank">Check Resume</Button>{' '}
                         </Col>
                         <Col>
-                            <Button className="bio-portfolio-button" href={BioData.portfolio} target="_blank">My Portfolio</Button>{' '}
+                            <Button className="bio-portfolio-button w-75" href={BioData.portfolio} target="_blank">My Portfolio</Button>{' '}
                         </Col>
                     </Row>
                 </Col>

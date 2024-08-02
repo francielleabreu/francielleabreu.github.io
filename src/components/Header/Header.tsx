@@ -1,6 +1,18 @@
+import { idText } from 'typescript';
 import './Header.css'
 
 function Header() {
+    const handleScroll = (id: string) => (event: any) => {
+        event.preventDefault(); // Previne o comportamento padrão
+
+        const element = document.getElementById(id);
+        if (element) {
+
+            element.scrollIntoView({ behavior: 'smooth' });
+            window.history.pushState(null, '', `#${id}`);
+        }
+    };
+
     return (
         <div className='header mx-0'>
             <div className="row">
@@ -9,13 +21,13 @@ function Header() {
                 </div>
                 <div className="menu-links col-6 text-center">
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#certificates">Certificates</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a onClick={() => handleScroll('bio')} href="#bio">Home</a></li>
+                        <li><a onClick={() => handleScroll('skills')} href="#skills">Skills</a></li>
+                        <li><a onClick={() => handleScroll('education')} href="#education">Education</a></li>
+                        <li><a onClick={() => handleScroll('certificates')} href="#certificates">Certificates</a></li>
+                        <li><a onClick={() => handleScroll('experience')} href="#experience">Experience</a></li>
+                        <li><a onClick={() => handleScroll('projects')} href="#projects">Projects</a></li>
+                        <li><a onClick={() => handleScroll('portfolio')} href="#portfolio">Portfolio</a></li>
                     </ul>
                 </div>
                 <div className="social-media col-3 text-end">

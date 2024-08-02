@@ -24,6 +24,9 @@
 
 .experience-card {
     text-align: left;
+    background-color: transparent !important;
+    color: white !important;
+    box-shadow: rgba(98, 75, 182, 0.15) 0px 4px 24px;
 }
 
 .experience-card-title {
@@ -31,7 +34,12 @@
     margin-bottom: 1rem;
 }
 
+.experience-badge-container .badge {
+    background-color: #CC3384 !important;
+}
+
 .experience-tech-badge {
+    background-color: #CC3384 !important;
     margin: 0.2rem;
 }
 

@@ -41,7 +41,7 @@
 }
 
 .bio-title {
-    margin-top: 2em;
+    margin-top: 1em !important;
 }
 
 .bio-name {
@@ -52,7 +52,7 @@
     margin-left: 0.5rem;
 }
 
-.container {
+.bio-container {
     margin-top: 80px;
 }
 

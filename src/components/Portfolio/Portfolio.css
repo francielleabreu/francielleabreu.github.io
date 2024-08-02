@@ -55,6 +55,9 @@
     padding: 0.4rem 0.8rem;
 }
 
+.portfolio-card-container .project-card {
+    padding: 8px;
+}
 .btn {
     background-color: #CC3384 !important;
     border-color: #CC3384 !important;
