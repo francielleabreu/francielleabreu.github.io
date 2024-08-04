@@ -38,6 +38,7 @@
 .bio-heading {
     display: flex;
     align-items: center;
+    margin-bottom: 12px;
 }
 
 .bio-title {
@@ -61,4 +62,8 @@
     height: auto;
     display: block;
     margin-top: 2em;
+}
+
+.bio-text {
+    text-align: justify;
 }

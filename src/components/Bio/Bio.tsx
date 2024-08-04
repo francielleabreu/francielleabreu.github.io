@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import './Bio.css'
 
 const BioData = {
-    roles: [" UX Designer", " Front-end Developer", " UI/UX Designer", " Project Analyst", " Teacher & Translator"],
+    roles: [" UX Designer", " Front-end Developer", " UI/UX Designer", " Project Analyst", " Web Designer"],
     resume: "/assets/CV_FrancielleAbreu.pdf",
     portfolio: "https://www.behance.net/francielleabreu1"
 };
@@ -35,7 +35,7 @@ function Bio() {
                         </h2>
                     </Row>
                     <Row>
-                        <p> I am on a journey to transition from a 5-year career as an International Project Analyst to the world of Programming. Beyond coding, I love design and have expertise in UX Design, UI/UX Design and Figma. In addition, I am a certified Scrum Fundamentals Professional with an agile mindset.</p>
+                        <p className="bio-text">Junior UX/UI Designer and Front-end Developer based in the Netherlands, passionate about design and user experience. I'm transitioning into tech field after a 5-year career as an International Project Analyst. I have experience as a Product Designer and Figma. I completed a MERN Stack Bootcamp, which led to my first internship as a UX/UI Designer and Front-end Developer. Currently, I'm studying Systems Analysis and Development and have completed several courses in UX, Programming, and Agile Methodologies.</p>
                     </Row>
                     <Row className='text-center'>
                         <Col>
@@ -50,7 +50,7 @@ function Bio() {
                     <Image src='/profile.jpg' roundedCircle className='profile-image' />
                 </Col>
             </Row>
-                {/* <Image src='/about-me-cover.png' fluid className="about-me-cover" /> */}
+            {/* <Image src='/about-me-cover.png' fluid className="about-me-cover" /> */}
         </Container>
     );
 }
