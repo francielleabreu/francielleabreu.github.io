@@ -1,9 +1,8 @@
-import { idText } from 'typescript';
 import './Header.css'
 
 function Header() {
     const handleScroll = (id: string) => (event: any) => {
-        event.preventDefault(); // Previne o comportamento padrão
+        event.preventDefault();
 
         const element = document.getElementById(id);
         if (element) {

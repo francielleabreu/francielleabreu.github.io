@@ -1,4 +1,3 @@
-import React from 'react';
 import './Footer.css';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

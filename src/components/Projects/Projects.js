@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Row, Col, Card, Badge, Button } from 'react-bootstrap';
 import './Projects.css';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import './Skills.css';
 
 const Skills = () => {
@@ -97,10 +96,6 @@ const Skills = () => {
                                 <img className="skill-image" src="/postman-skills.png" alt="Postmn" />
                                 Postman
                             </div>
-                            {/* <div className="skill-item">
-                                <img className="skill-image" src="/agile-skills.png" alt="Agile Methods" />
-                                Agile Methods
-                            </div> */}
                             <div className="skill-item">
                                 <img className="skill-image" src="/translator-skills.png" alt="Professional Translator" />
                                 Professional Translator

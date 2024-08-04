@@ -1,4 +1,3 @@
-import React from 'react';
 import PucrsOnline from "../Education/images/pucrsonline.png";
 import Pucrs from "../Education/images/pucrs-education.png";
 import Uninter from "../Education/images/uninter-education.png";
