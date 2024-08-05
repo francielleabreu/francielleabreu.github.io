@@ -7,6 +7,13 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+}
+
+.col-profile-image img {
+    width: 70%;
+    height: auto;
+    box-shadow: 0 0 20px #CC3384;
 }
 
 .bio-resume-button {
@@ -66,4 +73,45 @@
 
 .bio-text {
     text-align: justify;
+}
+
+@media (max-width: 767.98px) {
+    .col-profile-image {
+        margin-top: 20px;
+    }
+
+    .bio-heading {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bio-heading span.typewriter-text {
+        margin-left: 0;
+    }
+
+    .bio-title,
+    .bio-name,
+    .bio-text {
+        text-align: center;
+    }
+
+    .bio-resume-button,
+    .bio-portfolio-button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .bio-heading span.typewriter-text {
+        margin-left: 0.5rem;
+    }
+
+    .col-profile-image {
+        margin-top: 0;
+    }
+
+    .bio-resume-button,
+    .bio-portfolio-button {
+        width: auto;
+    }
 }

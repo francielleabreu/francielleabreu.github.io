@@ -76,3 +76,18 @@
 .Toastify__toast-icon svg {
     fill: #CC3384;
 }
+
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .footer-social-media-icons {
+        justify-content: flex-end;
+    }
+
+    .footer-copyright {
+        text-align: left;
+    }
+}

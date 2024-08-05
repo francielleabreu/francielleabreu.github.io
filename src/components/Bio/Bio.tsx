@@ -13,7 +13,7 @@ function Bio() {
     return (
         <Container id="bio" className="bio-container">
             <Row>
-                <Col>
+                <Col xs={12} md={8}>
                     <Row className="bio-title">
                         <h2 className="bio-title">Hello, my name is</h2>
                     </Row>
@@ -38,15 +38,15 @@ function Bio() {
                         <p className="bio-text">Junior UX/UI Designer and Front-end Developer based in the Netherlands, passionate about design and user experience. I'm transitioning into tech field after a 5-year career as an International Project Analyst. I have experience as a Product Designer and Figma. I completed a MERN Stack Bootcamp, which led to my first internship as a UX/UI Designer and Front-end Developer. Currently, I'm studying Systems Analysis and Development and have completed several courses in UX, Programming, and Agile Methodologies.</p>
                     </Row>
                     <Row className='text-center'>
-                        <Col>
+                        <Col xs={6} className="mb-2">
                             <Button className="bio-resume-button w-75" href={BioData.resume} target="_blank">Check Resume</Button>{' '}
                         </Col>
-                        <Col>
+                        <Col xs={6}>
                             <Button className="bio-portfolio-button w-75" href={BioData.portfolio} target="_blank">My Portfolio</Button>{' '}
                         </Col>
                     </Row>
                 </Col>
-                <Col className='col-profile-image'>
+                <Col xs={12} md={4} className='col-profile-image'>
                     <Image src='/profile.jpg' roundedCircle className='profile-image' />
                 </Col>
             </Row>

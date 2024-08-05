@@ -54,6 +54,13 @@
     }
 }
 
+@media (max-width: 480px) {
+    .skills-title {
+        margin-top: 10px;
+        font-size: 28px;
+    }
+}
+
 .skills-desc {
     font-size: 18px;
     text-align: center;

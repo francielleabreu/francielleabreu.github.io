@@ -15,7 +15,7 @@ function Education() {
                 </div>
             </div>
             <Row className="education-row mx-1">
-                <Col className="education-column">
+                <Col xs={12} md={6} lg={3} className="education-column">
                     <Card className="education-card education-card-custom">
                         <Card.Body className="education-card-body">
                             <Image src={PucrsOnline} roundedCircle className="education-image" />
@@ -28,7 +28,7 @@ function Education() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col className="education-column">
+                <Col xs={12} md={6} lg={3} className="education-column">
                     <Card className="education-card education-card-custom">
                         <Card.Body className="education-card-body">
                             <Image src={Uninter} roundedCircle className="education-image" />
@@ -41,7 +41,7 @@ function Education() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col className="education-column">
+                <Col xs={12} md={6} lg={3} className="education-column">
                     <Card className="education-card education-card-custom">
                         <Card.Body className="education-card-body">
                             <Image src={Uninter} roundedCircle className="education-image" />
@@ -54,7 +54,7 @@ function Education() {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col className="education-column">
+                <Col xs={12} md={6} lg={3} className="education-column">
                     <Card className="education-card education-card-custom">
                         <Card.Body className="education-card-body">
                             <Image src={Pucrs} roundedCircle className="education-image" />

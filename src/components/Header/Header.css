@@ -53,3 +53,30 @@ code {
 .menu-links a:hover {
   color: #CC3384;
 }
+
+@media (max-width: 768px) {
+  .header {
+    position: static;
+    height: auto;
+    padding: 10px 20px;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .menu-links ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-links ul li {
+    margin: 5px 0;
+  }
+
+  .social-media {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
