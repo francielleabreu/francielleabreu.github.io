@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a111c978.css",
-    "main.js": "/static/js/main.153caa62.js",
+    "main.css": "/static/css/main.b8607cdb.css",
+    "main.js": "/static/js/main.38351de9.js",
     "static/js/453.31489fd0.chunk.js": "/static/js/453.31489fd0.chunk.js",
     "static/media/matrix-master-logo.png": "/static/media/matrix-master-logo.e049fbf9dce72d83c1a8.png",
     "static/media/pucrsonline.png": "/static/media/pucrsonline.19aaabd93186d844c4a6.png",
@@ -9,12 +9,12 @@
     "static/media/pucrs-education.png": "/static/media/pucrs-education.11e1c00e0ad1f09b4306.png",
     "static/media/pucrs-experience.png": "/static/media/pucrs-experience.11e1c00e0ad1f09b4306.png",
     "index.html": "/index.html",
-    "main.a111c978.css.map": "/static/css/main.a111c978.css.map",
-    "main.153caa62.js.map": "/static/js/main.153caa62.js.map",
+    "main.b8607cdb.css.map": "/static/css/main.b8607cdb.css.map",
+    "main.38351de9.js.map": "/static/js/main.38351de9.js.map",
     "453.31489fd0.chunk.js.map": "/static/js/453.31489fd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a111c978.css",
-    "static/js/main.153caa62.js"
+    "static/css/main.b8607cdb.css",
+    "static/js/main.38351de9.js"
   ]
 }
