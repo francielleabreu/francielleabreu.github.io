@@ -31,6 +31,7 @@
 .portfolio-custom-card {
     flex: 1 1 calc(25% - 1rem);
     box-sizing: border-box;
+    min-height: 400px;
 }
 
 .portfolio-custom-card-img {
@@ -57,7 +58,14 @@
 
 .portfolio-card-container .project-card {
     padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    margin-bottom: 2rem;
+    width: 100%;
 }
+
 .btn {
     background-color: #CC3384 !important;
     border-color: #CC3384 !important;
@@ -78,4 +86,56 @@
 .btn-portfolio:hover {
     background-color: #D200FF !important;
     border-color: #D200FF !important;
+}
+
+@media (max-width: 767px) {
+    .portfolio-title {
+        font-size: 2rem;
+    }
+
+    .portfolio-custom-card-title {
+        font-size: 1rem;
+    }
+
+    .portfolio-custom-card-text {
+        font-size: 0.8rem;
+    }
+
+    .portfolio-custom-card-button {
+        font-size: 0.7rem;
+        padding: 0.3rem 0.6rem;
+    }
+
+    .btn-portfolio {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio-container {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .portfolio-title {
+        font-size: 1.8rem;
+    }
+
+    .portfolio-custom-card-title {
+        font-size: 0.9rem;
+    }
+
+    .portfolio-custom-card-text {
+        font-size: 0.7rem;
+    }
+
+    .portfolio-custom-card-button {
+        font-size: 0.6rem;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .btn-portfolio {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
 }

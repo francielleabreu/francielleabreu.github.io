@@ -4,6 +4,33 @@ import Card from 'react-bootstrap/Card';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Portfolio() {
+    const projects = [
+        {
+            title: "Find Easy",
+            description: "Helping who lives in the Netherlands to services according to their homeland.",
+            imgSrc: '/assets/images/portfolio/find-easy-cover.png',
+            link: "https://www.behance.net/francielleabreu1"
+        },
+        {
+            title: "Expat Friend",
+            description: "Community to help those who are migrating to the Netherlands or Portugal",
+            imgSrc: '/assets/images/portfolio/expat-friend-cover.png',
+            link: "https://www.behance.net/francielleabreu1"
+        },
+        {
+            title: "Pet Lover",
+            description: "Online store selling diverse products and services for cats and dogs",
+            imgSrc: '/assets/images/portfolio/pet-lover-cover.png',
+            link: "https://www.behance.net/francielleabreu1"
+        },
+        {
+            title: "Dashboard",
+            description: "Portal for a Ice Cream small Company manage trailers and product stock",
+            imgSrc: '/assets/images/portfolio/sorvetao-cover.png',
+            link: "https://www.behance.net/francielleabreu1"
+        }
+    ];
+
     return (
         <Container className="portfolio-container" id="portfolio">
             <hr className="education-featurette-divider" />
@@ -14,54 +41,18 @@ function Portfolio() {
                 </Col>
             </Row>
             <Row className="portfolio-card-container">
-                <Col md={3} >
-                    <Card className="project-card">
-                        <Card.Img variant="top" src='/assets/images/portfolio/find-easy-cover.png' className="portfolio-custom-card-img" />
-                        <Card.Body className="portfolio-custom-card-body">
-                            <Card.Title className="portfolio-custom-card-title">Find Easy</Card.Title>
-                            <Card.Text className="portfolio-custom-card-text">
-                                Helping who lives in the Netherlands to services according to their homeland.
-                            </Card.Text>
-                            <Button variant="primary" className="portfolio-custom-card-button">See more</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={3}>
-                    <Card className="project-card">
-                        <Card.Img variant="top" src='/assets/images/portfolio/expat-friend-cover.png' className="portfolio-custom-card-img" />
-                        <Card.Body className="portfolio-custom-card-body">
-                            <Card.Title className="portfolio-custom-card-title">Expat Friend</Card.Title>
-                            <Card.Text className="portfolio-custom-card-text">
-                                Community to help those who are migrating to the Netherlands or Portugal
-                            </Card.Text>
-                            <Button variant="primary" className="portfolio-custom-card-button">See more</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={3}>
-                    <Card className="project-card">
-                        <Card.Img variant="top" src='/assets/images/portfolio/pet-lover-cover.png' className="portfolio-custom-card-img" />
-                        <Card.Body className="portfolio-custom-card-body">
-                            <Card.Title className="portfolio-custom-card-title">Pet Lover</Card.Title>
-                            <Card.Text className="portfolio-custom-card-text">
-                                Online store selling diverse products and services for cats and dogs
-                            </Card.Text>
-                            <Button variant="primary" className="portfolio-custom-card-button">See more</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col md={3}>
-                    <Card className="project-card">
-                        <Card.Img variant="top" src='/assets/images/portfolio/sorvetao-cover.png' className="portfolio-custom-card-img" />
-                        <Card.Body className="portfolio-custom-card-body">
-                            <Card.Title className="portfolio-custom-card-title">Dashboard</Card.Title>
-                            <Card.Text className="portfolio-custom-card-text">
-                                Portal for a Ice Cream small Company manage trailers and product stock
-                            </Card.Text>
-                            <Button className="portfolio-custom-card-button">See more</Button>
-                        </Card.Body>
-                    </Card>
-                </Col>
+                {projects.map((project, index) => (
+                    <Col key={index} xs={12} sm={6} md={4} lg={3}>
+                        <Card className="project-card">
+                            <Card.Img variant="top" src={project.imgSrc} className="portfolio-custom-card-img" />
+                            <Card.Body className="portfolio-custom-card-body">
+                                <Card.Title className="portfolio-custom-card-title">{project.title}</Card.Title>
+                                <Card.Text className="portfolio-custom-card-text">{project.description}</Card.Text>
+                                <Button variant="primary" className="portfolio-custom-card-button" onClick={() => window.open(project.link, "_blank")}>See more</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                ))}
             </Row>
             <Row>
                 <a href="https://www.behance.net/francielleabreu1" target="_blank" rel="noopener noreferrer">
