@@ -56,15 +56,14 @@ function Experience() {
             </Row>
             {experiences.map((exp, index) => (
                 <React.Fragment key={index}>
-
                     <Row key={index}>
-                        <Col md={3} className="text-center">
+                        <Col md={3} sm={12} className="text-center">
                             <Image src={exp.image} className="experience-company-logo" fluid />
                             <h2 className="experience-company-name">{exp.companyName}</h2>
                             <p>{exp.role}</p>
                             <p>{exp.timePeriod}</p>
                         </Col>
-                        <Col md={9}>
+                        <Col md={9} sm={12}>
                             <Card className="experience-card">
                                 <Card.Body>
                                     <Card.Title className="experience-card-title">{exp.project}:</Card.Title>
@@ -82,7 +81,9 @@ function Experience() {
                 </React.Fragment>
 
             ))}
+            <hr className="featurette-divider" />
         </Container>
+
     );
 }
 

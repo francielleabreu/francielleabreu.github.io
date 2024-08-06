@@ -7,6 +7,11 @@
     align-items: center;
 }
 
+.skills-subtitle {
+    font-size: large;
+    text-align: center;
+}
+
 .featurette-divider {
     margin: 20px 0;
 }
@@ -15,7 +20,6 @@
     font-weight: normal;
     line-height: 1;
 }
-
 
 .featurette-heading {
     font-weight: normal;
@@ -136,21 +140,21 @@
     gap: 8px;
 }
 
-@media (max-width: 768px) {
+.skill-image {
+    width: 30px;
+    height: 30px;
+}
+
+/* @media (max-width: 768px) {
     .skill-item {
-        font-size: 14px;
+        font-size: 16px;
         padding: 8px 12px;
     }
 }
 
 @media (max-width: 500px) {
     .skill-item {
-        font-size: 14px;
+        font-size: 16px;
         padding: 6px 12px;
     }
-}
-
-.skill-image {
-    width: 30px;
-    height: 30px;
-}
+} */

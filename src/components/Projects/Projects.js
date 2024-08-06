@@ -56,7 +56,7 @@ function Projects() {
                                 </div>
                                 <Card.Title>{project.title}</Card.Title>
                                 <Card.Text>{project.date}</Card.Text>
-                                <Card.Text  className="project-card-text">{project.description}</Card.Text>
+                                <Card.Text className="project-card-text">{project.description}</Card.Text>
                                 <div className="d-flex justify-content-between">
                                     <Button variant="primary" href={project.codeLink} target="_blank" rel="noopener noreferrer">
                                         View Code

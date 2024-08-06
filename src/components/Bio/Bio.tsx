@@ -39,10 +39,10 @@ function Bio() {
                     </Row>
                     <Row className='text-center'>
                         <Col xs={6} className="mb-2">
-                            <Button className="bio-resume-button w-75" href={BioData.resume} target="_blank">Check Resume</Button>{' '}
+                            <Button className="bio-resume-button w-100" href={BioData.resume} target="_blank">Check Resume</Button>{' '}
                         </Col>
                         <Col xs={6}>
-                            <Button className="bio-portfolio-button w-75" href={BioData.portfolio} target="_blank">My Portfolio</Button>{' '}
+                            <Button className="bio-portfolio-button w-100" href={BioData.portfolio} target="_blank">My Portfolio</Button>{' '}
                         </Col>
                     </Row>
                 </Col>

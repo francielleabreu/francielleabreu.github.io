@@ -138,7 +138,7 @@ function Certifications() {
             <br />
 
             <Modal show={showModal} onHide={handleCloseModal} size="lg">
-                <Modal.Header closeButton>
+                <Modal.Header closeButton className="modal-header">
                     <Modal.Title>PDF Viewer</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>

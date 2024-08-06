@@ -10,6 +10,7 @@
 
 .experience-subtitle {
     font-size: large;
+    margin-bottom: 3rem;
 }
 
 .featurette-divider {
@@ -44,6 +45,9 @@
 }
 
 .experience-badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     margin-bottom: 1rem;
 }
 
@@ -61,4 +65,76 @@
 
 .experience-card-text {
     text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .experience-title {
+        font-size: 2rem;
+    }
+
+    .experience-company-name {
+        font-size: 1.2rem;
+    }
+
+    .experience-card-title {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .experience-card {
+        margin-top: 1rem;
+    }
+
+    .experience-row {
+        margin-bottom: 2rem;
+    }
+
+    .experience-company-logo {
+        max-width: 120px;
+        max-height: 120px;
+    }
+
+    .experience-card-text {
+        font-size: 0.9rem;
+    }
+
+    .experience-badge-container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .experience-title {
+        font-size: 1.5rem;
+    }
+
+    .experience-company-name {
+        font-size: 1rem;
+    }
+
+    .experience-card-title {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .experience-card {
+        margin-top: 1rem;
+    }
+
+    .experience-row {
+        margin-bottom: 1rem;
+    }
+
+    .experience-company-logo {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .experience-card-text {
+        font-size: 0.8rem;
+    }
+
+    .experience-badge-container {
+        justify-content: center;
+    }
 }

@@ -50,6 +50,10 @@
     border: var(--bs-accordion-border-width) solid #CC3384;
 }
 
+.modal-header{
+    background-color: #CC3384;
+}
+
 @media (max-width: 768px) {
     .certifications-container {
         padding: 1rem;
