@@ -21,7 +21,7 @@ function Portfolio() {
             title: "Pet Lover",
             description: "Online store selling diverse products and services for cats and dogs",
             imgSrc: '/assets/images/portfolio/pet-lover-cover.png',
-            link: "https://www.behance.net/francielleabreu1"
+            link: "https://www.behance.net/gallery/205199125/PetShop-Pet-Lover"
         },
         {
             title: "Dashboard",
@@ -48,7 +48,7 @@ function Portfolio() {
                             <Card.Body className="portfolio-custom-card-body">
                                 <Card.Title className="portfolio-custom-card-title">{project.title}</Card.Title>
                                 <Card.Text className="portfolio-custom-card-text">{project.description}</Card.Text>
-                                <Button variant="primary" className="portfolio-custom-card-button" onClick={() => window.open(project.link, "_blank")}>See more</Button>
+                                <Button variant="primary" className="portfolio-custom-card-button" onClick={() => window.open(project.link, "_blank")}>View</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -56,7 +56,7 @@ function Portfolio() {
             </Row>
             <Row>
                 <a href="https://www.behance.net/francielleabreu1" target="_blank" rel="noopener noreferrer">
-                    <Button className="btn btn-portfolio">Check all my portfolio on Behance</Button>
+                    <Button className="btn btn-portfolio">Check My Portfolio on Behance</Button>
                 </a>
             </Row>
         </Container>
