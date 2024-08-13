@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9b289f36.css",
-    "main.js": "/static/js/main.e1fba2e9.js",
+    "main.js": "/static/js/main.ad0a409d.js",
     "static/js/453.31489fd0.chunk.js": "/static/js/453.31489fd0.chunk.js",
     "static/media/matrix-master-logo.png": "/static/media/matrix-master-logo.e049fbf9dce72d83c1a8.png",
     "static/media/pucrsonline.png": "/static/media/pucrsonline.19aaabd93186d844c4a6.png",
@@ -10,11 +10,11 @@
     "static/media/pucrs-experience.png": "/static/media/pucrs-experience.11e1c00e0ad1f09b4306.png",
     "index.html": "/index.html",
     "main.9b289f36.css.map": "/static/css/main.9b289f36.css.map",
-    "main.e1fba2e9.js.map": "/static/js/main.e1fba2e9.js.map",
+    "main.ad0a409d.js.map": "/static/js/main.ad0a409d.js.map",
     "453.31489fd0.chunk.js.map": "/static/js/453.31489fd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b289f36.css",
-    "static/js/main.e1fba2e9.js"
+    "static/js/main.ad0a409d.js"
   ]
 }
