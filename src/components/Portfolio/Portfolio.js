@@ -6,8 +6,20 @@ import { Container, Row, Col } from 'react-bootstrap';
 function Portfolio() {
     const projects = [
         {
+            title: "Pet Lover",
+            description: "Online store selling diverse products and services for cats and dogs",
+            imgSrc: '/assets/images/portfolio/pet-lover-cover.png',
+            link: "https://www.behance.net/gallery/205199125/PetShop-Pet-Lover"
+        },
+        {
+            title: "Alumni Community",
+            description: "Platform for Bootcamp former students to connect and foster networking",
+            imgSrc: '/assets/images/portfolio/alumni-community.png',
+            link: "https://www.behance.net/gallery/205524185/Alumni-Community"
+        },
+        {
             title: "Find Easy",
-            description: "Helping who lives in the Netherlands to services according to their homeland.",
+            description: "Helping people in the Netherlands to find services by homeland.",
             imgSrc: '/assets/images/portfolio/find-easy-cover.png',
             link: "https://www.behance.net/francielleabreu1"
         },
@@ -17,18 +29,6 @@ function Portfolio() {
             imgSrc: '/assets/images/portfolio/expat-friend-cover.png',
             link: "https://www.behance.net/francielleabreu1"
         },
-        {
-            title: "Pet Lover",
-            description: "Online store selling diverse products and services for cats and dogs",
-            imgSrc: '/assets/images/portfolio/pet-lover-cover.png',
-            link: "https://www.behance.net/gallery/205199125/PetShop-Pet-Lover"
-        },
-        {
-            title: "Dashboard",
-            description: "Portal for a Ice Cream small Company manage trailers and product stock",
-            imgSrc: '/assets/images/portfolio/sorvetao-cover.png',
-            link: "https://www.behance.net/francielleabreu1"
-        }
     ];
 
     return (
