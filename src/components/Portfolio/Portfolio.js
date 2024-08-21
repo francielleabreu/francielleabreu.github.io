@@ -27,7 +27,7 @@ function Portfolio() {
             title: "Expat Friend",
             description: "Community to help those who are migrating to the Netherlands or Portugal",
             imgSrc: '/assets/images/portfolio/expat-friend-cover.png',
-            link: "https://www.behance.net/gallery/205623749/Expat-Friend-Case-Study
+            link: "https://www.behance.net/gallery/205623749/Expat-Friend-Case-Study"
         },
     ];
 
