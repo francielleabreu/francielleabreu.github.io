@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import './Bio.css'
 
 const BioData = {
-    roles: [" UX Designer", " Front-end Developer", " UI/UX Designer", " Project Analyst", " Web Designer"],
+    roles: [" Web Designer", " UX Designer", " Front-end Developer", " UX/UI Designer", " Programmer", ],
     resume: "/assets/CV_FrancielleAbreu.pdf",
     portfolio: "https://www.behance.net/francielleabreu1"
 };
@@ -47,7 +47,7 @@ function Bio() {
                     </Row>
                 </Col>
                 <Col xs={12} md={4} className='col-profile-image'>
-                    <Image src='/profile.jpg' roundedCircle className='profile-image' />
+                    <Image src='/profile.png' roundedCircle className='profile-image' />
                 </Col>
             </Row>
             {/* <Image src='/about-me-cover.png' fluid className="about-me-cover" /> */}

@@ -19,9 +19,9 @@ function Portfolio() {
         },
         {
             title: "Find Easy",
-            description: "Helping people in the Netherlands to find services by homeland.",
+            description: "Guide to homeland products, companies and services in the Netherlands ",
             imgSrc: '/assets/images/portfolio/find-easy-cover.png',
-            link: "https://www.behance.net/francielleabreu1"
+            link: "https://www.behance.net/gallery/208208029/Find-Easy"
         },
         {
             title: "Expat Friend",
@@ -37,7 +37,7 @@ function Portfolio() {
             <Row>
                 <Col>
                     <h1 className="portfolio-title">Portfolio</h1>
-                    <p className="portfolio-subtitle">Here some of my Projects as a UI & UX Designer</p>
+                    <p className="portfolio-subtitle">Here some of my Projects as a UX/UI Designer</p>
                 </Col>
             </Row>
             <Row className="portfolio-card-container">

@@ -6,7 +6,7 @@ function Projects() {
         {
             title: 'Bridal Shower',
             date: 'Jun 2024',
-            description: '"Bridal Shower" list to give as a gift by transferring the value of the product or buying the product in a store.',
+            description: 'Bridal Shower gift list to give by transferring the value of the product or buying the product in a store.',
             image: '/assets/images/portfolio/bridal-shower-cover.png',
             tags: ['TypeScript', 'Angular', 'SCSS', 'Bootstrap'],
             codeLink: 'https://github.com/francielleabreu/cha-de-panela-deca-gaiva',

@@ -4,12 +4,22 @@ import './Experience.css';
 import logo1 from "../Experience/images/matrix-master-logo.png";
 import logo2 from "../Experience/images/traducao-experience.png";
 import logo3 from "../Experience/images/pucrs-experience.png";
+import logo4 from "../Experience/images/techlabs-logo.png";
 
 function Experience() {
     const experiences = [
         {
+            companyName: "TechLabs Rotterdam",
+            timePeriod: "Set 2024 - Present",
+            role: "Student",
+            project: "UX Designer",
+            technologies: ["Product Designer", "User Experience (UX)","User Interface Design (UI)", "Prototype", "Figma"],
+            description: "As a student, this track focused on human interaction with technology,  with valuable insights into the core principles of designing a seamless and enjoyable user experience. Learning how to apply essential design values to create intuitive interfaces, explored prototyping tools to bring concepts to life, and worked on real-world projects that enhanced my practical knowledge. This experience aims to deepen my understanding of user-centered design and equip me with the tools to deliver impactful digital solutions.",
+            image: logo4
+        },
+        {
             companyName: "Code Matrix Zone",
-            timePeriod: "Feb 2023 - Today",
+            timePeriod: "Feb 2024 - Sep 2024",
             role: "Intern",
             project: "Product Designer and Front-end Developer",
             technologies: ["User Experience (UX)", "User Interface Design (UI)", "Prototype", "Figma", "JavaScript", "React", "Bootstrap", "HTML/CSS", "Git/GitHub", "Agile Methods"],

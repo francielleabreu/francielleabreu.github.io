@@ -22,11 +22,11 @@ function Header() {
                     <ul>
                         <li><a onClick={() => handleScroll('bio')} href="#bio">Home</a></li>
                         <li><a onClick={() => handleScroll('skills')} href="#skills">Skills</a></li>
-                        <li><a onClick={() => handleScroll('education')} href="#education">Education</a></li>
-                        <li><a onClick={() => handleScroll('certificates')} href="#certificates">Certificates</a></li>
+                        <li><a onClick={() => handleScroll('portfolio')} href="#portfolio">Portfolio</a></li>
                         <li><a onClick={() => handleScroll('experience')} href="#experience">Experience</a></li>
                         <li><a onClick={() => handleScroll('projects')} href="#projects">Projects</a></li>
-                        <li><a onClick={() => handleScroll('portfolio')} href="#portfolio">Portfolio</a></li>
+                        <li><a onClick={() => handleScroll('education')} href="#education">Education</a></li>
+                        <li><a onClick={() => handleScroll('certificates')} href="#certificates">Certificates</a></li>
                     </ul>
                 </div>
                 <div className="social-media col-12 col-md-3 text-md-end text-center">

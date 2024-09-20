@@ -11,7 +11,7 @@ function Education() {
             <div className="education-wrapper">
                 <div className="education-title">Education</div>
                 <div className="education-subtitle">
-                    Find below my formal degrees throughout my career
+                    Formal Degrees Throughout My Career
                 </div>
             </div>
             <Row className="education-row mx-1">

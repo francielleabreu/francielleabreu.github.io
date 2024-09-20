@@ -30,7 +30,7 @@ function Certifications() {
             <hr className="featurette-divider" />
             <div className="certifications-title">Certificates</div>
             <div className="certifications-subtitle">
-                Qualifications and professional activities with certificates
+                Qualifications and Professional Activities with Certificates
             </div>
             <Accordion>
                 <Accordion.Item eventKey="1" className="border shadow-sm">
