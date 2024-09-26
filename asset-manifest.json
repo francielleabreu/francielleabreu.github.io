@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9b289f36.css",
-    "main.js": "/static/js/main.d34c80de.js",
+    "main.js": "/static/js/main.de5b2348.js",
     "static/js/453.31489fd0.chunk.js": "/static/js/453.31489fd0.chunk.js",
     "static/media/techlabs-logo.png": "/static/media/techlabs-logo.306fac8d7f3207dedfe0.png",
     "static/media/matrix-master-logo.png": "/static/media/matrix-master-logo.e049fbf9dce72d83c1a8.png",
@@ -11,11 +11,11 @@
     "static/media/pucrs-experience.png": "/static/media/pucrs-experience.11e1c00e0ad1f09b4306.png",
     "index.html": "/index.html",
     "main.9b289f36.css.map": "/static/css/main.9b289f36.css.map",
-    "main.d34c80de.js.map": "/static/js/main.d34c80de.js.map",
+    "main.de5b2348.js.map": "/static/js/main.de5b2348.js.map",
     "453.31489fd0.chunk.js.map": "/static/js/453.31489fd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b289f36.css",
-    "static/js/main.d34c80de.js"
+    "static/js/main.de5b2348.js"
   ]
 }
