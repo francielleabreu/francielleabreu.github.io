@@ -5,12 +5,22 @@ import logo1 from "../Experience/images/matrix-master-logo.png";
 import logo2 from "../Experience/images/traducao-experience.png";
 import logo3 from "../Experience/images/pucrs-experience.png";
 import logo4 from "../Experience/images/techlabs-logo.png";
+import logo5 from "../Experience/images/touche_pulse.png";
 
 function Experience() {
     const experiences = [
         {
+            companyName: "Touch Pulse",
+            timePeriod: "Fev 2025 - Present",
+            role: "Part time",
+            project: "UX Designer",
+            technologies: ["UX Designer", "User Experience (UX)","User Interface Design (UI)", "Prototype", "Figma"],
+            description: "Redesigned the user interface of Navis, a navigation app focusing on accessibility and inclusive design for visually impaired users. Conducted user research and interviews to understand user needs, pain points, and accessibility requirements. Created and refined user stories, wireframes, and user flows based on research insights. Led usability testing sessions with visually impaired users to validate design choices and identify areas for improvement. Collaborated with developers and stakeholders to ensure design feasibility with accessibility standards, and participated in daily standups to contribute to team discussions on product priorities.",
+            image: logo5
+        },
+        {
             companyName: "TechLabs Rotterdam",
-            timePeriod: "Set 2024 - Present",
+            timePeriod: "Set 2024 - Jan 2025",
             role: "Student",
             project: "UX Designer",
             technologies: ["Product Designer", "User Experience (UX)","User Interface Design (UI)", "Prototype", "Figma"],

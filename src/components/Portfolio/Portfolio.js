@@ -6,10 +6,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 function Portfolio() {
     const projects = [
         {
-            title: "Pet Lover",
-            description: "Online store selling diverse products and services for cats and dogs",
-            imgSrc: '/assets/images/portfolio/pet-lover-cover.png',
-            link: "https://www.behance.net/gallery/205199125/PetShop-Pet-Lover"
+            title: "Redesigning 9292 Travel",
+            description: "Enhancing UX acessability for visually impaired users",
+            imgSrc: '/assets/images/portfolio/9292-travel-cover.png',
+            link: "https://www.behance.net/gallery/217567305/Redesigning-9292-Travel-App"
         },
         {
             title: "Alumni Community",
@@ -29,6 +29,12 @@ function Portfolio() {
             imgSrc: '/assets/images/portfolio/expat-friend-cover.png',
             link: "https://www.behance.net/gallery/205623749/Expat-Friend-Case-Study"
         },
+        // {
+        //     title: "Pet Lover",
+        //     description: "Online store selling diverse products and services for cats and dogs",
+        //     imgSrc: '/assets/images/portfolio/pet-lover-cover.png',
+        //     link: "https://www.behance.net/gallery/205199125/PetShop-Pet-Lover"
+        // },
     ];
 
     return (
