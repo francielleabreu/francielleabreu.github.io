@@ -5,7 +5,7 @@ import './Bio.css'
 
 const BioData = {
     roles: [" UX Designer", " UX Researcher"," Web Designer"," Front-end Developer", " Project Manager", ],
-    resume: "/assets/CV_FrancielleAbreu2025.pdf",
+    resume: "/assets/CV_FrancielleAbreuPortfolio_05-2025.pdf",
     portfolio: "https://www.behance.net/francielleabreu1"
 };
 
