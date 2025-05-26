@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b289f36.css",
-    "main.js": "/static/js/main.f49135cb.js",
+    "main.css": "/static/css/main.dc7aebaf.css",
+    "main.js": "/static/js/main.fbdbe35a.js",
     "static/js/453.31489fd0.chunk.js": "/static/js/453.31489fd0.chunk.js",
     "static/media/touche_pulse.png": "/static/media/touche_pulse.ae57860922785ca63c4b.png",
     "static/media/techlabs-logo.png": "/static/media/techlabs-logo.306fac8d7f3207dedfe0.png",
@@ -11,12 +11,12 @@
     "static/media/pucrs-education.png": "/static/media/pucrs-education.11e1c00e0ad1f09b4306.png",
     "static/media/pucrs-experience.png": "/static/media/pucrs-experience.11e1c00e0ad1f09b4306.png",
     "index.html": "/index.html",
-    "main.9b289f36.css.map": "/static/css/main.9b289f36.css.map",
-    "main.f49135cb.js.map": "/static/js/main.f49135cb.js.map",
+    "main.dc7aebaf.css.map": "/static/css/main.dc7aebaf.css.map",
+    "main.fbdbe35a.js.map": "/static/js/main.fbdbe35a.js.map",
     "453.31489fd0.chunk.js.map": "/static/js/453.31489fd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b289f36.css",
-    "static/js/main.f49135cb.js"
+    "static/css/main.dc7aebaf.css",
+    "static/js/main.fbdbe35a.js"
   ]
 }
