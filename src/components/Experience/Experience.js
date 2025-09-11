@@ -10,10 +10,37 @@ import logo5 from "../Experience/images/touche_pulse.png";
 function Experience() {
     const experiences = [
         {
+            companyName: "Code Matrix Zone",
+            timePeriod: "Mar 2024 - Present",
+            role: "UX Tutor",
+            project: (
+                <a 
+                    href="https://matrixmaster.info/about-us/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-white hover:underline"
+                >
+                Web, UX/UI Developer & Program Trainer
+                </a>
+        ),
+            technologies: ["User Experience (UX)", "User Interface Design (UI)", "Prototype", "Figma", "Teaching"],
+            description: "Following my performance during the internship at Matrix Master, I was invited to become a program tutor in the Bootcamp. In this role, I teach a UX Design Master Class to all cohorts of the program, delivering both theoretical and practical lessons. My approach combines concepts with hands-on exercises, enabling students to apply UX principles directly to their projects. Beyond sharing knowledge gained through professional and academic experience, I also emphasize the importance of design for developers, fostering collaboration and demonstrating how user-centered thinking enhances the quality and impact of digital solutions.",
+            image: logo1
+        },
+        {
             companyName: "Touch Pulse",
-            timePeriod: "Fev 2025 - Present",
-            role: "Part time",
-            project: "UX Designer",
+            timePeriod: "Fev 2025 - Jun 2025",
+            role: "UX Designer",
+            project: (
+                <a 
+                    href="https://www.touchpulse.nl/team" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-white hover:underline"
+                >
+                UX Designer
+                </a>
+        ),
             technologies: ["UX Designer", "User Experience (UX)","User Interface Design (UI)", "Prototype", "Figma"],
             description: "Redesigned the user interface of Navis, a navigation app focusing on accessibility and inclusive design for visually impaired users. Conducted user research and interviews to understand user needs, pain points, and accessibility requirements. Created and refined user stories, wireframes, and user flows based on research insights. Led usability testing sessions with visually impaired users to validate design choices and identify areas for improvement. Collaborated with developers and stakeholders to ensure design feasibility with accessibility standards, and participated in daily standups to contribute to team discussions on product priorities.",
             image: logo5

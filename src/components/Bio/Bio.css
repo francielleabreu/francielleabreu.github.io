@@ -11,10 +11,11 @@
 }
 
 .col-profile-image img {
-    width: 80%;
+    width: 70%;
     height: auto;
-    border-radius: 50%;
     box-shadow: 0 0 20px #CC3384;
+    object-fit: cover;
+    aspect-ratio: 1 / 1; 
 }
 
 .bio-resume-button {

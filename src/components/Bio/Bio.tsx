@@ -4,8 +4,8 @@ import Typewriter from 'typewriter-effect';
 import './Bio.css'
 
 const BioData = {
-    roles: [" UX Designer", " UX Researcher"," Web Designer"," Front-end Developer", " Project Manager", ],
-    resume: "/assets/CV_FrancielleAbreuPortfolio_05-2025.pdf",
+    roles: [" UX Designer", " UX Tutor"," Web Designer"," Front-end Developer", " Project Manager", ],
+    resume: "/assets/CV_FrancielleAbreuPortfolio_09-2025.pdf",
     portfolio: "https://www.behance.net/francielleabreu1"
 };
 
@@ -35,7 +35,7 @@ function Bio() {
                         </h2>
                     </Row>
                     <Row>
-                        <p className="bio-text">UX Designer based in the Netherlands, passionate about design, research, and user experience. With more than 7 years of experience in research and project management as an International Project Analyst, I have experience as a Product Designer and Figma tool. I completed a MERN Stack Bootcamp, which led to my first internship as a UX Designer and Front-end Developer. Currently, I'm studying Systems Analysis and Development and have completed several courses in UX, Programming, and Agile Methodologies.</p>
+                        <p className="bio-text">I’m a UX Designer based in the Netherlands, passionate about creating meaningful digital experiences. With over two years of experience in designing intuitive and inclusive solutions, I complement my UX background with programming skills and a degree in Systems Analysis and Development. My career spans more than seven years as an International Project Analyst, specializing in research and project management, which has strengthened my analytical and organizational skills. Currently, I also work as a UX Tutor, combining my teaching background with my passion for mentoring professionals in building accessible and meaningful digital experiences.</p>
                     </Row>
                     <Row className='text-center'>
                         <Col xs={6} className="mb-2">
