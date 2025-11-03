@@ -29,7 +29,7 @@ function Experience() {
         },
         {
             companyName: "Touch Pulse",
-            timePeriod: "Fev 2025 - Jun 2025",
+            timePeriod: "Feb 2025 - Jun 2025",
             role: "UX Designer",
             project: (
                 <a 
@@ -74,7 +74,7 @@ function Experience() {
         },
         {
             companyName: "Translation and Language Services",
-            timePeriod: "Dez 2021 - Set 2023",
+            timePeriod: "Dec 2021 - Sep 2023",
             role: "Own Company",
             project: "Translator and Researcher",
             technologies: ["Bilingual Fluency", "Technical Knowledge", "Academic Translation", "Research and Referencing"],

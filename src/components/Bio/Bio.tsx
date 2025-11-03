@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import './Bio.css'
 
 const BioData = {
-    roles: [" UX Designer", " UX Tutor"," Web Designer"," Front-end Developer", " Project Manager", ],
+    roles: [" Project Manager", " UX Designer"," Web Designer"," Front-end Developer", " UX Tutor", ],
     resume: "/assets/CV_FrancielleAbreuPortfolio_09-2025.pdf",
     portfolio: "https://www.behance.net/francielleabreu1"
 };
@@ -35,7 +35,7 @@ function Bio() {
                         </h2>
                     </Row>
                     <Row>
-                        <p className="bio-text">I’m a UX Designer based in the Netherlands, passionate about creating meaningful digital experiences. With over two years of experience in designing intuitive and inclusive solutions, I complement my UX background with programming skills and a degree in Systems Analysis and Development. My career spans more than seven years as an International Project Analyst, specializing in research and project management, which has strengthened my analytical and organizational skills. Currently, I also work as a UX Tutor, combining my teaching background with my passion for mentoring professionals in building accessible and meaningful digital experiences.</p>
+                        <p className="bio-text">I’m a Senior Project Manager and UX Designer based in the Netherlands, passionate about creating meaningful and accessible digital experiences. I bring a strong blend of strategic thinking, research expertise, and user-centered design, supported by a degree in Systems Analysis and Development and programming skills. With years of experience leading international projects, I’ve developed strong analytical, organizational, and communication skills. Currently, I also work as a UX Tutor, combining my teaching background with my passion for mentoring professionals in building inclusive and impactful digital solutions.</p>
                     </Row>
                     <Row className='text-center'>
                         <Col xs={6} className="mb-2">
