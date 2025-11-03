@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 import './Bio.css'
 
 const BioData = {
-    roles: [" Project Manager", " UX Designer"," Web Designer"," Front-end Developer", " UX Tutor", ],
+    roles: [" Project Manager", " UX Designer"," Product Designer"," Web Designer"," Front-end Developer", " UX Tutor", ],
     resume: "/assets/CV_FrancielleAbreuPortfolio_09-2025.pdf",
     portfolio: "https://www.behance.net/francielleabreu1"
 };
