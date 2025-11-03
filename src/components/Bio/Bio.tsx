@@ -35,7 +35,7 @@ function Bio() {
                         </h2>
                     </Row>
                     <Row>
-                        <p className="bio-text">I’m a Senior Project Manager and UX Designer based in the Netherlands, passionate about creating meaningful and accessible digital experiences. I bring a strong blend of strategic thinking, research expertise, and user-centered design, supported by a degree in Systems Analysis and Development and programming skills. With years of experience leading international projects, I’ve developed strong analytical, organizational, and communication skills. Currently, I also work as a UX Tutor, combining my teaching background with my passion for mentoring professionals in building inclusive and impactful digital solutions.</p>
+                        <p className="bio-text">I’m a Senior Project Manager and UX Designer based in the Netherlands, with a focus on creating meaningful and accessible digital experiences. I bring a strong blend of strategic thinking, research expertise, and user-centered design, supported by a degree in Systems Analysis and Development with programming skills. With years of experience leading international projects, I’ve developed analytical, organizational, and communication skills. Currently, I also work as a UX Tutor, combining my teaching background with my passion for mentoring professionals in building inclusive and impactful digital solutions.</p>
                     </Row>
                     <Row className='text-center'>
                         <Col xs={6} className="mb-2">
