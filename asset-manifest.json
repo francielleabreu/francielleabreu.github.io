@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a207ffff.css",
-    "main.js": "/static/js/main.9bdc5723.js",
+    "main.js": "/static/js/main.276a1aa7.js",
     "static/js/453.85c8f63c.chunk.js": "/static/js/453.85c8f63c.chunk.js",
     "static/media/touche_pulse.png": "/static/media/touche_pulse.ae57860922785ca63c4b.png",
     "static/media/techlabs-logo.png": "/static/media/techlabs-logo.306fac8d7f3207dedfe0.png",
@@ -12,11 +12,11 @@
     "static/media/pucrs-experience.png": "/static/media/pucrs-experience.11e1c00e0ad1f09b4306.png",
     "index.html": "/index.html",
     "main.a207ffff.css.map": "/static/css/main.a207ffff.css.map",
-    "main.9bdc5723.js.map": "/static/js/main.9bdc5723.js.map",
+    "main.276a1aa7.js.map": "/static/js/main.276a1aa7.js.map",
     "453.85c8f63c.chunk.js.map": "/static/js/453.85c8f63c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a207ffff.css",
-    "static/js/main.9bdc5723.js"
+    "static/js/main.276a1aa7.js"
   ]
 }
